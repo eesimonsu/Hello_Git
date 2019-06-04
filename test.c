@@ -15,7 +15,7 @@ int main()
 	int abc;
    
 	printf("sizeof J(%d) S(%d)\n", strlen(J), strlen(S));
- 
+    printf("°×ºÆ³ÛÄãÔÚ¸ÉÂï£¿\n");
 	for(i=0; i<strlen(J); i++)
 	{
 		for(j=0; j<strlen(S); j++)

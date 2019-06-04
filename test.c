@@ -22,6 +22,7 @@ int main()
         	}
 	}
     printf("counter %d\n", counter);
+    printf("YYY %d\n",i);
 
 	return 0;
 }

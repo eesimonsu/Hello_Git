@@ -1,12 +1,18 @@
 #include <stdio.h>
 #include <string.h>
 
+int add_test_function()
+{
+	return 10;
+}
+
 int main()
 {
 	char *J = "aA";
 	char *S = "aAAbbbb";
 	int counter=0;
 	int i, j;
+	int abc;
    
 	printf("sizeof J(%d) S(%d)\n", strlen(J), strlen(S));
  
@@ -22,6 +28,9 @@ int main()
         	}
 	}
     printf("counter %d\n", counter);
+
+
+	abc = add_test_function();	
 
 	return 0;
 }

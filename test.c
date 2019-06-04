@@ -22,6 +22,9 @@ int main()
         	}
 	}
     printf("counter %d\n", counter);
+	system("cls");
+	printf("i(%d) j(%d) J[%d](%c) S[%d](%c)\n ", i, j, i, J[i], j, S[j]);
+
 
 	return 0;
 }
